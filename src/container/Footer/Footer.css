@@ -1,0 +1,114 @@
+.Footer-mainDiv {
+    background-color: var(--footerColor);
+}
+
+.Footer-content {
+    text-align: center;
+}
+
+.Footer-content h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.Footer-content button {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    background-color: var(--footerColor);
+    color: var(--whiteText);
+    border-color: var(--whiteText);
+    padding: 22px;
+    margin-top: 35px;
+    cursor: pointer;
+
+
+}
+
+.Footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+}
+
+.Footer-content-1 h4 {
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 30px;
+    color: var(--whiteText);
+}
+
+.Footer-content-1 p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--whiteText);
+
+
+}
+
+.Footer-links p,
+.copyright {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    padding: 15px 0;
+
+    color: #FFFFFF;
+}
+
+.Footer-links p {
+    cursor: pointer;
+}
+
+.copyright {
+    padding: 20px 0;
+}
+
+.Footer-copyright {
+    text-align: center;
+}
+.bold{
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:922px) {
+
+
+    .Footer-content h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .Footer-content button {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .copyright {
+        margin-top: 50px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width:480px) {
+    .Footer-content h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .Footer-content button {
+        font-size: 13px;
+        padding: 15px;
+    }
+}
+
+
+ 

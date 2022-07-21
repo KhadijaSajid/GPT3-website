@@ -1,0 +1,36 @@
+.tags-maindiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+
+.tags-maindiv img {
+    cursor: pointer;
+    margin: auto;
+}
+
+@media screen and (max-width :760px) {
+
+    .tags-maindiv {
+        justify-content: center;
+    }
+
+    .tags-maindiv img {
+        max-width: 100px;
+        margin: 1rem;
+
+    }
+
+
+}
+
+@media screen and (max-width :760px) {
+
+    .tags-maindiv img {
+        max-width: 70px;
+
+    }
+}

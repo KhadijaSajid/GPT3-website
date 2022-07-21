@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --font-family: 'Manrope', sans-serif;;
+    --bgColor: #040C1A;
+    --fontColor: #7AA7D4;
+    --btnColor: #FF4820;
+    --miniTextColor: #EE846F;
+    --whiteText: #fff;
+    --blogColor:042C54;
+    --footerColor: #031B34;
+    --gradientText: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradientBar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.WhatisGPt-gradient {
+    background: -moz-radial-gradient(circle at 5% 0%, rgba(4, 44, 84, 1) 0%, rgba(13, 73, 136, 1) 99%);
+    background: -webkit-radial-gradient(circle at 5% 0%, rgba(4, 44, 84, 1) 0%, rgba(13, 73, 136, 1) 99%);
+    background: -o-radial-gradient(circle at 5% 0%, rgba(4, 44, 84, 1) 0%, rgba(13, 73, 136, 1) 99%);
+    background: -ms-radial-gradient(circle at 5% 0%, rgba(4, 44, 84, 1) 0%, rgba(13, 73, 136, 1) 99%);
+    background: radial-gradient(circle at 5% 0%, rgba(4, 44, 84, 1) 0%, rgba(13, 73, 136, 1) 99%);
+}
+
+
+.gradient__text {
+    background-image: var(--gradientText);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

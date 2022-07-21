@@ -1,0 +1,129 @@
+ .navbar-maindiv {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     color: var(--whiteText);
+     padding: 4rem 6rem 0 6rem;
+
+ }
+
+
+
+ .navbar-maindiv div a {
+     text-decoration: none;
+     color: var(--whiteText);
+     cursor: pointer;
+     font-family: var(--font-family);
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 25px;
+ }
+
+ .navbar-subdiv {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+ }
+
+ .navbar-subdiv p {
+     margin-right: 15px;
+     padding-top: 4px;
+ }
+
+ .navbar-maindiv-hrefs a {
+     padding: 0 20px;
+
+
+
+ }
+
+
+ .navbar-signin-content button {
+     background: var(--btnColor);
+     color: var(--whiteText);
+     padding: 8px 20px 10px 20px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     font-size: 1rem;
+     cursor: pointer;
+
+ }
+
+ .signin {
+     color: var(--whiteText);
+     width: 57px;
+     height: 25px;
+     font-family: var(--font-family);
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 25px;
+     margin-right: 35px;
+
+
+
+ }
+
+ /*
+.navbar-maindiv div p {
+    margin-left:50px;
+    font-weight: bold;
+    padding-top: 20px;
+
+
+}
+.navbar-maindiv-hrefs{
+    margin-left: 20px;
+    padding-top: 15px;
+
+
+}
+
+.navbar-maindiv-hrefs a{
+    padding: 0 20px;
+    
+
+}
+
+.navbar-maindiv div button {
+    background: var(--btnColor);
+    color: var(--whiteText);
+    width: 142px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.navbar-maindiv-signin{
+    padding-top: 15px;
+
+}
+
+.signin {
+    color: var(--whiteText);
+    width: 57px;
+    height: 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 270px;
+    margin-right: 35px;
+
+
+
+}
+
+
+@media  screen and (max-width: 1244px) {
+    
+    .signin {
+        margin-left: 200px;
+    }
+    
+} */
